@@ -13,7 +13,6 @@ weatherform.addEventListener('submit',(e)=>{
         {
             msg2.textContent = ''
             msg1.textContent = data.error
-           // console.log(data.error)
         }    
         else{
             msg1.textContent = ''
